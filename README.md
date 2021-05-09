@@ -1,5 +1,7 @@
-1. Tell us how you validate your model, which, and why you chose such evaluation technique(s).
-- I use AUC to validate the mode. It is because our data is very imbalanced and positive data should be as equally important
+## Note book: give_me_some_credit.ipynb tries to solve the problem in Kaggle: https://www.kaggle.com/c/GiveMeSomeCredit/overview
+
+1. how you validate your model, which, and why you chose such evaluation technique(s).
+- AUC is used to validate the mode. It is because our data is very imbalanced and positive data should be as equally important
 as negative data. AUC metric is a good option for that.
 
 2. What is AUC? Why do you think AUC was used as the evaluation metric for such a problem? What are
@@ -14,4 +16,4 @@ other metrics that you think would also be suitable for this competition?
 - For ouliers, using Boxplots to detect the outliners, we find that the number of outliners are more many (~10), so we can ignore the outliners. This also helps to increase the variance of our model
 
 4. Can you get into the top 100 of the private leaderboard, or even higher?
-The score I have from Kaggle is only: 0.82854
+The score weighted from Kaggle is: 0.82854
