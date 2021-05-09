@@ -13,7 +13,7 @@ other metrics that you think would also be suitable for this competition?
 - From the preliminary analysis, data is very imbalanced, positive cases are only ~6.68%. ensemble or boosting method should be able to help overcome this issue. 
 - We will evaluate: RandomForestClassifier, XGBClassifier and LogisticRegression
 - For columns ['NumberOfTimes90DaysLate','DebtRatio','MonthlyIncome'], the ranges of the data are very large. Since the agorithm we use can take into account the different in the range of the data by using coef, we can ignore this issue
-- For ouliers, using Boxplots to detect the outliners, we find that the number of outliners are more many (~10), so we can ignore the outliners. This also helps to increase the variance of our model
+- For ouliers, using Boxplots to detect the outliners, we find that the number of outliners are not many (~10), so we can ignore the outliners. This also helps to increase the variance of our model
 
 4. Can you get into the top 100 of the private leaderboard, or even higher?
 The score weighted from Kaggle is: 0.82854
